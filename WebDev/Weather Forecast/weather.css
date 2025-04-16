@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+}
+
+body{
+    background-color: #397ee4;
+}
+
+.card{
+    width:90%;
+    max-width: 470px;
+    margin: 100px auto 0;
+    padding: 40px 35px;
+
+    background: linear-gradient(135deg, #2062c5,#397ee4, #c3cfe2);
+    color: white;
+    background-color: #fff;
+
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 1px 4px 20px rgba(255, 255, 255, 0.5);
+}
+
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box input{
+    width: 100%;
+    height: 60px;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    background: #ffffff82;
+    color: grey;
+    flex: 1;
+    margin-right: 10px;
+
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.search-box button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: #ffffff82;
+    cursor: pointer;
+
+    border-radius: 50%;
+}
+
+.search-box button img{
+    width: 25px;
+}
+
+.error{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 100;
+    display: none;
+}
+
+.weather-icon{
+    margin-top: 30px;
+    width: 170px;
+}
+
+.weather-display{
+    display:none;
+}
+
+.weather-display h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather-display h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 22px;
+}
+
+.accessibiliy{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.accessibiliy img{
+    width: 40px;
+    cursor: pointer;
+
+}
+.dark{
+    background-color: #222;
+}
+.accessibiliy button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.accessibiliy button:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.invert{
+    filter: invert(1);
+}

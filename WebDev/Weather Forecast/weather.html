@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search-box">
+            <input type="text" name="search" id="search" placeholder="Enter city name" spellcheck="false">
+            <button class="searchBtn"><img src="assets/images/search.png" alt="Search"></button> <br>
+        </div>
+        <div class="error">
+            <p>Invalid City Name...</p>
+        </div>
+
+        <div class="weather-display">
+            <img class="weather-icon" src="assets/images/clear.png" alt="">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Chandigarh</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="assets/images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/images/wind.png" alt="">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accessibiliy">
+        <button class="mode invert"><img class="modeImg" src="assets/images/dark.svg" alt=""></button>
+        <button class="volume invert"><img class="volImg" src="assets/images/volume.svg" alt=""></button>
+    </div>
+
+<script src="weather.js"></script>
+</body>
+</html>

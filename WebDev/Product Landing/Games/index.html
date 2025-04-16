@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlayStation 5 Games - Experience Countless Adventures</title>
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="games.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <img
+        herf="/WebDev/FEE/Home/index.html"
+        src="assets/logos/ps5logo.png"
+        alt="PlayStation 5 official logo"
+      />
+
+      <ul>
+        <li><a href="/WebDev/FEE/Home/index.html">Home</a></li>
+        <li><a href="/WebDev/FEE/Accessories/index.html">Accessories</a></li>
+        <li><a href="/WebDev/FEE/Games/index.html">Games</a></li>
+        <li><a href="/WebDev/FEE/Sign In/index.html">Sign In</a></li>
+      </ul>
+    </nav>
+    <div class="site-start">
+      <div class="text">
+        <h1>Playstation 5 Games</h1>
+        <p>
+          Discover the games you want, from exclusive blockbusters to innovative
+          indies, all brought to life with the power of the PS5™ console.
+        </p>
+        <button
+        onclick="document.getElementById('grid-of-games').scrollIntoView({behavior: 'smooth'});"
+        >
+          See More
+        </button>
+      </div>
+      <video
+        class="video gta6"
+        src="assets/videos/GTA6.mp4"
+        autoplay
+        loop
+        muted
+      ></video>
+    </div>
+
+    <h1 class="heading">
+      Console-exclusive PS5 games from PlayStation Studios
+    </h1>
+
+    <section>
+      <div class="game-showcase">
+        <div class="format">
+          <h1>See what we have in store for you.</h1>
+          <img class="big-image" src="assets/img/Big Astrobot.jpg" alt="" />
+          <div class="game first-game">
+            <img class="game-img"
+              src="assets/img/astrobot.jpg"
+              alt="Call Of Duty : Black Ops 6"
+            />
+            <div class="info">
+              <h1>Astro Bot</h1>
+              <p>
+                Guide Astro, a tiny robot, on a heartwarming quest to save his
+                lost crew members scattered across vibrant worlds.Astro must
+                face challenges that test courage and friendship in a whimsical
+                universe.
+              </p>
+
+              <p><b>Release Date: </b>6 September 2024</p>
+              <div class="button-container">
+                <button class="format-button">Find Out More</button>
+                <button class="heart-btn" onclick="fillHeart(this)">
+                  <img src="assets/logos/heart.svg" alt="Heart Icon" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <img class="big-image" src="assets/img/Big Black Ops 6.jpg" alt="" />
+          <div class="game">
+            <div class="info">
+              <h1>Call Of Duty : Black Ops 6</h1>
+              <p>
+                Players are thrown into a shadowy world of covert operations and
+                global conspiracies. As elite operatives, they must unravel a
+                web of deception and relentless foes to prevent a catastrophic
+                conflict.
+              </p>
+
+              <p><b>Release Date: </b>25 October 2024</p>
+              <div class="button-container">
+                <button class="format-button">Find Out More</button>
+                <button class="heart-btn" onclick="fillHeart(this)">
+                  <img src="assets/logos/heart.svg" alt="Heart Icon" />
+                </button>
+              </div>
+            </div>
+
+            <img class="game-img"
+              src="assets/img/Black Ops 6.jpg"
+              alt="Call Of Duty : Black Ops 6"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1 class="heading">Explore Countless Possibilities</h1>
+      <div class="scroll-buttons">
+        <button class="scroll-btn left" onclick="scrollToLeft()">&#9664;</button>
+        <button class="scroll-btn right" onclick="scrollToRight()">&#9654;</button>
+      </div>
+
+      <div id="grid-of-games" class="grid">
+        
+        <div class="card">
+          <div>
+            <img
+              class="cover"
+              src="assets/img/GOWR.jpg"
+              alt="God Of War Ragnarok"
+            />
+          </div>
+          <div>
+            <h1>God Of War Ragnarok</h1>
+            <p>
+              Join Kratos and Atreus as they face the looming prophecy of the
+              world's end. Battling gods and monsters, they must confront their
+              fates, and fight to stop Ragnarok: the world's end.
+            </p>
+          </div>
+          <div>
+            <div class="button-container">
+              <button class="format-button grid-button find">
+                Find Out More
+              </button>
+              <button class="heart-btn heart-grid" onclick="fillHeart(this)">
+                <img src="assets/logos/heart.svg" alt="Heart Icon" />
+              </button>
+            </div>
+            <div>
+              <button class="grid-button series">Explore The Series</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <img
+              class="cover"
+              src="assets/img/TLOU2.jpg"
+              alt="God Of War Ragnarok"
+            />
+          </div>
+          <div>
+            <h1>The Last Of Us Part 2</h1>
+            <p>
+              Ellie embarks on a relentless quest for vengeance. Join her as she
+              navigates a brutal, post-apocalyptic landscape, her journey blurs
+              the line between justice and obsession.
+            </p>
+          </div>
+          <div>
+            <div class="button-container">
+              <button class="format-button grid-button find">
+                Find Out More
+              </button>
+              <button class="heart-btn heart-grid" onclick="fillHeart(this)">
+                <img src="assets/logos/heart.svg" alt="Heart Icon" />
+              </button>
+            </div>
+            <div>
+              <button class="grid-button series">Explore The Series</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <img
+              class="cover"
+              src="assets/img/RDR2.jpg"
+              alt="God Of War Ragnarok"
+            />
+          </div>
+          <div>
+            <h1>Red Dead Redemption 2</h1>
+            <p>
+              Follow Arthur Morgan, an outlaw struggling to survive as the Wild
+              West fades into history. Caught between loyalty to his gang and
+              his own moral compass, Arthur faces must overcome hardships.
+            </p>
+          </div>
+          <div>
+            <div class="button-container">
+              <button class="format-button grid-button find">
+                Find Out More
+              </button>
+              <button class="heart-btn heart-grid" onclick="fillHeart(this)">
+                <img src="assets/logos/heart.svg" alt="Heart Icon" />
+              </button>
+            </div>
+            <div>
+              <button class="grid-button series">Explore The Series</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <img
+              class="cover"
+              src="assets/img/GOT.jpg"
+              alt="God Of War Ragnarok"
+            />
+          </div>
+          <div>
+            <h1>Ghost Of Tsushima</h1>
+            <p>
+              Follow The story Jin Sakai, a lone warrior who becomes Tsushima's
+              last hope after the Mongol army devastates his home. Facing
+              overwhelming odds and bound by his code of honor, Jin must make a
+              harrowing choice: uphold the way of the samurai or embrace the
+              path of the Ghost.
+            </p>
+          </div>
+          <div>
+            <div class="button-container">
+              <button class="format-button grid-button find">
+                Find Out More
+              </button>
+              <button class="heart-btn heart-grid" onclick="fillHeart(this)">
+                <img src="assets/logos/heart.svg" alt="Heart Icon" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <img
+              class="cover"
+              src="assets/img/Spoodrman.jpg"
+              alt="God Of War Ragnarok"
+            />
+          </div>
+          <div>
+            <h1>Marvel's Spider Man 2</h1>
+            <p>
+              Peter Parker and Miles face their greatest challenge yet in a
+              threatened by powerful enemies. Balancing their personal lives
+              with the fate of New York, the two must unite to overcome
+              unstoppable forces.
+            </p>
+          </div>
+          <div>
+            <div class="button-container">
+              <button class="format-button grid-button find">
+                Find Out More
+              </button>
+              <button class="heart-btn heart-grid" onclick="fillHeart(this)">
+                <img src="assets/logos/heart.svg" alt="Heart Icon" />
+              </button>
+            </div>
+            <div>
+              <button class="grid-button series">Explore The Series</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <img
+              class="cover"
+              src="assets/img/Horizon.jpg"
+              alt="God Of War Ragnarok"
+            />
+          </div>
+          <div>
+            <h1>Horizon Forbidden West</h1>
+            <p>
+              Aloy ventures into uncharted lands to uncover the source of a
+              mysterious plague threatening life on Earth. She must unravel
+              ancient secrets to restore balance and save a dying world.
+            </p>
+          </div>
+          <div>
+            <div class="button-container">
+              <button class="format-button grid-button find">
+                Find Out More
+              </button>
+              <button class="heart-btn heart-grid" onclick="fillHeart(this)">
+                <img src="assets/logos/heart.svg" alt="Heart Icon" />
+              </button>
+            </div>
+            <div>
+              <button class="grid-button series">Explore The Series</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <img
+              class="cover"
+              src="assets/img/GT.jpg"
+              alt="God Of War Ragnarok"
+            />
+          </div>
+          <div>
+            <h1>Gran Turismo 7</h1>
+            <p>
+              Gran Turismo 7 immerses players in the world of racing, where they
+              build their dream car collection and compete in thrilling races.
+              Players experience the history, and artistry behind the automotive
+              universe.
+            </p>
+          </div>
+          <div>
+            <div class="button-container">
+              <button class="format-button grid-button find">
+                Find Out More
+              </button>
+              <button class="heart-btn heart-grid" onclick="fillHeart(this)">
+                <img src="assets/logos/heart.svg" alt="Heart Icon" />
+              </button>
+            </div>
+            <div>
+              <button class="grid-button series">Explore The Series</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <img
+              class="cover"
+              src="assets/img/Uncharted.jpg"
+              alt="God Of War Ragnarok"
+            />
+          </div>
+          <div>
+            <h1>Uncharted 4: A Thief's End</h1>
+            <p>
+              Nathan Drake is drawn back into the world of treasure hunting as
+              they pursue a legendary pirate's fortune, Nathan confronts his
+              past and the cost of a life filled with adventure.
+            </p>
+          </div>
+          <div>
+            <div class="button-container">
+              <button class="format-button grid-button find">
+                Find Out More
+              </button>
+              <button class="heart-btn heart-grid" onclick="fillHeart(this)">
+                <img src="assets/logos/heart.svg" alt="Heart Icon" />
+              </button>
+            </div>
+            <div>
+              <button class="grid-button series">Explore The Series</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="filler">
+      <!-- <img src="assets/img/PSBanner.png" alt="" /> -->
+      <div>
+        <h1>Experience Unforgettable Adventures</h1>
+        <p>
+          Discover your next unforgettable game in our interactive experience.
+          Choose what you want to feel and let PS5 transport you to the heart of
+          the action.
+        </p>
+        <button
+        onclick="document.getElementById('list-of-games').scrollIntoView({behavior: 'smooth'});">Find your next game</button>
+      </div>
+    </div>
+
+    <!-- <h1 class="heading">
+      Play with or against others 
+    </h1> -->
+
+    <section>
+      <div class="game-showcase online">
+        <div class="format">
+          <h1 class="online-head">Play with or against others.</h1>
+          <img class="big-image" src="assets/img/Fortnite.jpg" alt="" />
+          <div class="game first-game">
+            <img class="game-img" src="assets/img/FN.jpeg" alt="Call Of Duty : Black Ops 6" />
+            <div class="info">
+              <h1 class="online-head">Fortnite</h1>
+              <p class="online-head">
+                Players enter a vibrant battle royale world where survival
+                hinges on skill, strategy, and creativity. Amidst ever-shifting
+                landscapes, they build, fight, and outsmart opponents in a
+                relentless quest to be the last one standing, shaping their
+                destiny.
+              </p>
+
+              <!-- <p class="online-head"><b>Release Date: </b>6 September 2024</p> -->
+              <div class="button-container">
+                <button class="format-button online-butt">Find Out More</button>
+                <button class="heart-btn" onclick="fillHeart(this)">
+                  <img src="assets/logos/heart.svg" alt="Heart Icon" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <img class="big-image" src="assets/img/EA FC.jpg" alt="" />
+          <div class="game" style="margin-bottom: 5em">
+            <div class="info">
+              <h1 class="online-head">EA FC 25</h1>
+              <p class="online-head">
+                Players step onto the pitch in a gripping football simulation
+                where every match matters. With enhanced realism and dynamic
+                gameplay, teams clash in epic showdowns, forging legacies as
+                they strive for glory in the world's most popular sport.
+              </p>
+
+              <!-- <p class="online-head"><b>Release Date: </b>25 October 2024</p> -->
+              <div class="button-container">
+                <button class="format-button online-butt">Find Out More</button>
+                <button class="heart-btn" onclick="fillHeart(this)">
+                  <img src="assets/logos/heart.svg" alt="Heart Icon" />
+                </button>
+              </div>
+            </div>
+            <img class="game-img" src="assets/img/FIFA.jpg" alt="Call Of Duty : Black Ops 6" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 id="list-of-games" class="heading">
+      Surf through our entire library of games handpicked for you
+    </h1>
+
+    <section>
+      <div  class="game-grid">
+        <div class="item">
+          <img src="assets/img/Elden Ring.jpg" alt="" />
+          <h2>Elden Ring</h2>
+        </div>
+        <div class="item">
+          <img src="assets/img/Helldivers.jpg" alt="" />
+          <h2>Helldivers 2</h2>
+        </div>
+        <div class="item">
+          <img src="assets/img/Space Marine.jpg" alt="" />
+          <h2>Space Marine 2</h2>
+        </div>
+        <div class="item">
+          <img src="assets/img/Tekken.jpg" alt="" />
+          <h2>Tekken 8</h2>
+        </div>
+        <div class="item">
+          <img src="assets/img/Dragon Ball.jpg" alt="" />
+          <h2>Dragon Ball - Sparking! Zero</h2>
+        </div>
+        <div class="item">
+          <img src="assets/img/Dragons Dogma.jpg" alt="" />
+          <h2>Dragon's Dogma 2</h2>
+        </div>
+
+        <div class="item">
+          <img src="assets/img/Alan Wake.jpg" alt="" />
+          <h2>Alan Wake II</h2>
+        </div>
+        <div class="item">
+          <img src="assets/img/Black Myth.jpg" alt="" />
+          <h2>Black Myth Wukong</h2>
+        </div>
+        <div class="item">
+          <img src="assets/img/MK1.jpeg" alt="" />
+          <h2>Mortal Kombat 1</h2>
+        </div>
+        <div class="item">
+          <img src="assets/img/Hogwarts.jpg" alt="" />
+          <h2>Hogwarts Legacy</h2>
+        </div>
+        <div class="item">
+          <img src="assets/img/Stellar Blade.jpg" alt="" />
+          <h2>Stellar Blade</h2>
+        </div>
+        <div class="item">
+          <img src="assets/img/Stray.jpg" alt="" />
+          <h2>Stray</h2>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="game-showcase exclusive">
+        <div class="format">
+          <h1 class="exclusive-head">
+            Pre-order and Wishlist upcoming PS5 games.
+          </h1>
+          <img
+            class="big-image"
+            src="assets/img/AC Shadows Banner.jpg"
+            alt=""
+          />
+          <div class="game first-game">
+            <img class="game-img"
+              src="assets/img/AC Shadows.jpg"
+              alt="Call Of Duty : Black Ops 6"
+            />
+            <div class="info">
+              <h1>Assassins Creed Shadows</h1>
+              <p>
+                Set in feudal Japan during the late Sengoku period, follow
+                Yasuke, a legendary African samurai, and Naoe, a skilled shinobi
+                from Iga Province as they strive to shape the future of Japan​
+              </p>
+
+              <p><b>Release Date: </b>14 February 2025</p>
+              <div class="button-container">
+                <button class="format-button">Find Out More</button>
+                <button class="heart-btn" onclick="fillHeart(this)">
+                  <img src="assets/logos/heart.svg" alt="Heart Icon" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <img class="big-image" src="assets/img/GOY Banner2.jpg" alt="" />
+          <div class="game" style="margin-bottom: 5em">
+            <div class="info">
+              <h1>Ghost Of Yotei</h1>
+              <p>
+                Ghost of Yotei is the sequel to the critically acclaimed open-world action-adventure Ghost of Tsushima. At the northern edge of Japan, beyond the reach of the Samurai, a new warrior rises from the ashes.
+              </p>
+
+              <p><b>Release Date: </b>2025</p>
+              <div class="button-container">
+                <button class="format-button">Find Out More</button>
+                <button class="heart-btn" onclick="fillHeart(this)">
+                  <img src="assets/logos/heart.svg" alt="Heart Icon" />
+                </button>
+              </div>
+            </div>
+
+            <img class="game-img"
+              src="assets/img/GOY.jpg"
+              alt="Call Of Duty : Black Ops 6"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h2>About PlayStation</h2>
+        <p>
+          PlayStation is a world-class gaming experience with cutting-edge
+          technology, immersive gameplay, and a large library of amazing games.
+        </p>
+      </div>
+
+      <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="/WebDev/FEE/Home/index.html">Home</a></li>
+          <li><a href="/WebDev/FEE/Accessories/index.html">Accessories</a></li>
+          <li><a href="/WebDev/FEE/Games/index.html">Games</a></li>
+          <li><a href="/WebDev/FEE/Sign In/index.html">Sign In</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section contact">
+        <h2>Contact Us</h2>
+        <ul>
+          <li>Email: support@playstation.com</li>
+          <li>Phone: 1-800-123-4567</li>
+          <li>Address: 42nd Irving St, 43043 New York, NY</li>
+        </ul>
+      </div>
+
+      <div class="footer-section social icons">
+        <h2>Follow Us</h2>
+        <ul>
+          <li>
+            <a target="_blank" href="https://x.com/PlayStation/">Twitter</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/playstation/"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://www.youtube.com/@PlayStation/"
+              >YouTube</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 PlayStation | All Rights Reserved</p>
+    </div>
+  </footer>
+</html>

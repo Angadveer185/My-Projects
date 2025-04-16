@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="todo.css" />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>To-Do List</h1>
+      <div class="inp">
+        <input type="text" name="task" id="task" placeholder="Enter Task" />
+        <button class="enter">+</button>
+      </div>
+      <div class="error"><p>Invalid Task!</p></div>
+      <h2>Current List</h2>
+      <div class="info"><p>No items in list.</p></div>
+      <ul class="lst">
+      </ul>
+    </div>
+
+    <div class="mode"><button><img class="modeImg" src="assets/images/sun.svg"></button></div>
+    <script src="todo.js"></script>
+  </body>
+</html>

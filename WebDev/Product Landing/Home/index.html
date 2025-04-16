@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playstation | Play Has No Limits</title>
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="home.css" />
+  </head>
+
+  <body>
+    <nav>
+      <img
+        href="#site-start"
+        src="assets/logos/ps5logo.png"
+        alt="PlayStation 5 official logo"
+      />
+
+      <ul>
+        <li><a href="#site-start">Home</a></li>
+        <li><a href="#psdiscinfo">Consoles</a></li>
+        <li><a target="_blank" href="/WebDev/FEE/Accessories/index.html">Accessories</a></li>
+        <li>
+          <a target="_blank" href="/WebDev/FEE/Games/index.html">Games</a>
+        </li>
+        <li>
+          <a target="_blank" href="/WebDev/FEE/Sign In/index.html">Sign In</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="site-start">
+      <div class="container">
+        <div class="left">
+          <img src="assets/logos/ps5logo.png" alt="" />
+          <h1>PLAY HAS NO LIMITS</h1>
+          <h2>Live in your own world, play in ours.</h2>
+        </div>
+        <div class="right">
+          <img src="assets/images/ps5slimtransparent.png" alt="" />
+        </div>
+      </div>
+
+      <div class="heading">
+        <h1>PLAY LIKE NEVER BEFORE<sup>&reg;</sup></h1>
+        <p>
+          Experience lightning-fast loading with an ultra-high speed SSD, deeper
+          immersion with support for hapticfeedback, adaptive triggers and 3D
+          Audio1, and an incredible collection of PlayStation games.
+        </p>
+      </div>
+      <section>
+        <div class="psgrid">
+          <div class="griditem disc">
+            <img
+              src="assets/images/discshowcase.png"
+              alt="PlayStation 5 Disc"
+            />
+
+            <h1>PlayStation 5</h1>
+            <h1>DISC</h1>
+
+            <p>$499</p>
+
+            <button
+              onclick="document.getElementById('psdiscinfo').scrollIntoView({behavior: 'smooth'});"
+            >
+              Learn More
+            </button>
+          </div>
+
+          <div class="griditem slim">
+            <img
+              src="assets/images/slimshowcase.png"
+              alt="PlayStation 5 Slim"
+            />
+
+            <h1>PlayStation 5</h1>
+            <h1>SLIM</h1>
+
+            <p>$499</p>
+
+            <button
+              onclick="document.getElementById('pssliminfo').scrollIntoView({behavior: 'smooth'});"
+            >
+              Learn More
+            </button>
+          </div>
+
+          <div class="griditem pro">
+            <img src="assets/images/proshowcase.png" alt="PlayStation 5 Pro" />
+
+            <h1>PlayStation 5</h1>
+            <h1>PRO</h1>
+
+            <p>$699</p>
+
+            <button
+              onclick="document.getElementById('psproinfo').scrollIntoView({behavior: 'smooth'});"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div class="filler">
+        <img
+          src="assets/images/clusterbg.png"
+          alt="PlayStation Accessories Background"
+        />
+      </div>
+
+      <div class="heading">
+        <h1>Explore Your Options</h1>
+      </div>
+
+      <div class="content">
+        <section>
+          <div id="psdiscinfo" class="psdiscinfo">
+            <img src="assets/images/ps5disccut.png" alt="PlayStation 5 DISC" />
+
+            <div class="specs">
+              <h1>PlayStation 5 DISC/DISCLESS</h1>
+
+              <div class="about">
+                <h2>About The Product</h2>
+                <h2 style="color: #e47911">4.2 ★★★★☆ (9674 Ratings)</h2>
+                <p>
+                  Unleash the full power of the PS5 Disc Version, where next-gen
+                  gaming meets timeless disc-based play. Dive into extraordinary
+                  adventures with lightning-fast load times, thanks to an
+                  ultra-high speed SSD, and experience immersive gameplay with
+                  haptic feedback, adaptive triggers, and 3D Audio. From PS5's
+                  exclusive new titles to a vast library of PS4 games, the PS5
+                  Disc Version ensures unforgettable gaming moments. <br />
+                  *3D Audio available via built-in TV speakers or USB/analog
+                  stereo headphones. System setup and latest software updates
+                  required.
+                </p>
+
+                <h2 style="color: #b12704">Price: $499</h2>
+                <label for="Base">
+                  <select name="version" id="Base">
+                    <option value="Select Version">Select Version</option>
+                    <option value="Disc">With Disc Drive</option>
+                    <option value="Digital">Without Disc Drive</option>
+                  </select>
+                </label>
+
+                <button
+                  onclick="document.getElementById('reviews').scrollIntoView({behavior: 'smooth'});"
+                >
+                  See Reviews
+                </button>
+
+                <h2>Specifications</h2>
+                <ul>
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px">CPU:- </b
+                    >x86-64-AMD Ryzen Zen 8 Cores / 16 Threads at 3.5GHz
+                    (variable frequency)
+                  </li>
+
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px">GPU: </b>Ray
+                    Tracing Acceleration Up to 2.23 GHz (10.3 TFLOPS)
+                  </li>
+
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px"
+                      >Memory/Interface: </b
+                    >16GB GDDR6/256-bit
+                  </li>
+
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px"
+                      >Internal Storage: </b
+                    >Custom 825GB SSD
+                  </li>
+
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px">Dimensions: </b
+                    >PS5 - 390mm x 104mm x 260mm (width x height x depth)
+                    <br />PS5 Digital Edition - 390mm x 92mm x 260mm (width x
+                    height x depth)
+                  </li>
+
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px">Weight: </b>PS5 -
+                    4.5 KG <br />Digital Edition - 3.9 KG
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div id="pssliminfo" class="pssliminfo">
+            <img
+              src="assets/images/ps5slimrotate.png"
+              alt="PlayStation 5 SLIM"
+            />
+
+            <div class="specs">
+              <div class="specs">
+                <h1>PlayStation 5 SLIM</h1>
+
+                <div class="about">
+                  <h2>About The Product</h2>
+                  <h2 style="color: #e47911">4.5 ★★★★☆ (8896 Ratings)</h2>
+                  <p>
+                    Step into the next generation of gaming with the PS5 Slim, a
+                    sleek and powerful console designed to deliver unparalleled
+                    performance in a more compact form. The PS5 Slim keeps all
+                    the incredible features of the original while offering a
+                    slimmer, more space-efficient design. Play the latest PS5
+                    titles, along with a massive collection of supported PS4
+                    games, all in one versatile package. The future of gaming is
+                    here, and it’s slimmer than ever.
+                    <br />
+                    *3D Audio available via built-in TV speakers or USB/analog
+                    stereo headphones. System setup and latest software updates
+                    required.
+                  </p>
+
+                  <h2 style="color: #b12704">Price: $499</h2>
+                  <label for="Slim">
+                    <select name="version" id="Slim">
+                      <option value="Select Version">Select Version</option>
+                      <option value="Disc">With Disc Drive (+ $130)</option>
+                      <option value="Digital">Without Disc Drive</option>
+                    </select>
+                  </label>
+
+                  <button
+                    onclick="document.getElementById('reviews').scrollIntoView({behavior: 'smooth'});"
+                  >
+                    See Reviews
+                  </button>
+
+                  <h2>Specifications</h2>
+                  <ul>
+                    <li class="specdesc">
+                      <b style="color: #b12704; font-size: 20px">CPU:- </b
+                      >Custom AMD Zen 2, 8-core / 16 threads, 3.5GHz
+                    </li>
+
+                    <li class="specdesc">
+                      <b style="color: #b12704; font-size: 20px">GPU: </b>AMD
+                      RDNA 2, 10.3 teraflops, 2.23 GHz
+                    </li>
+
+                    <li class="specdesc">
+                      <b style="color: #b12704; font-size: 20px"
+                        >Memory/Interface: </b
+                      >16GB GDDR6/256-bit
+                    </li>
+
+                    <li class="specdesc">
+                      <b style="color: #b12704; font-size: 20px"
+                        >Internal Storage: </b
+                      >Custom 1TB SSD
+                    </li>
+
+                    <li class="specdesc">
+                      <b style="color: #b12704; font-size: 20px">Dimensions: </b
+                      >PS5 - 358mm x 96mm x 216mm (width x height x depth)
+                      <br />PS5 Digital Edition - 358mm x 79mm x 216mm (width x
+                      height x depth)
+                    </li>
+
+                    <li class="specdesc">
+                      <b style="color: #b12704; font-size: 20px">Weight: </b>PS5
+                      - 3.2 KG <br />Digital Edition - 2.6 KG
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div id="psproinfo" class="psproinfo">
+            <img src="assets/images/ps5proshow.png" alt="PlayStation 5 PRO" />
+
+            <div class="specs">
+              <h1>PlayStation 5 Pro</h1>
+
+              <div class="about">
+                <h2>About The Product</h2>
+                <h2 style="color: #e47911">3.7 ★★★☆☆ (1257 Ratings)</h2>
+                <p>
+                  Elevate your gaming experience with the PS5 Pro, designed for
+                  players who demand peak performance and breathtaking visuals.
+                  Immerse yourself deeper in your games with advanced haptic
+                  feedback, adaptive triggers, and 3D Audio*, bringing every
+                  moment to life in extraordinary detail. With the ability to
+                  play next-gen PS5 titles and a vast library of PS4 games, the
+                  PS5 Pro is built for those who want the ultimate in speed,
+                  power, and precision.
+                  <br />
+                  *3D Audio available via built-in TV speakers or USB/analog
+                  stereo headphones. System setup and latest software updates
+                  required.
+                </p>
+
+                <h2 style="color: #b12704">Price: $699</h2>
+                <label for="Pro">
+                  <select name="version" id="Pro">
+                    <option value="Select Version">Select Version</option>
+                    <option value="Disc">With Disc Drive (+ $130)</option>
+                    <option value="Digital">Without Disc Drive</option>
+                  </select>
+                </label>
+
+                <button
+                  onclick="document.getElementById('reviews').scrollIntoView({behavior: 'smooth'});"
+                >
+                  See Reviews
+                </button>
+
+                <h2>Specifications</h2>
+                <ul>
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px">CPU:- </b
+                    >x86-64-AMD Ryzen Zen 8 Cores / 16 Threads at 3.5GHz
+                    (variable frequency)
+                  </li>
+
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px">GPU: </b>Ray
+                    Tracing Acceleration Up to 2.23 GHz (10.3 TFLOPS)
+                  </li>
+
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px"
+                      >Memory/Interface: </b
+                    >16GB GDDR6/256-bit
+                  </li>
+
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px"
+                      >Internal Storage: </b
+                    >Custom 825GB SSD
+                  </li>
+
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px">Dimensions: </b
+                    >PS5 - 390mm x 104mm x 260mm (width x height x depth)
+                    <br />PS5 Digital Edition - 390mm x 92mm x 260mm (width x
+                    height x depth)
+                  </li>
+
+                  <li class="specdesc">
+                    <b style="color: #b12704; font-size: 20px">Weight: </b>PS5 -
+                    4.5 KG <br />Digital Edition - 3.9 KG
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section>
+        <div class="contact">
+          <h1>Contact Us</h1>
+          <h2>We're Here to Help You</h2>
+          <p>
+            Have any questions, feedback, or need assistance? We’d love to hear
+            from you! Feel free to reach out to us through any of the following
+            channels, and our team will get back to you as soon as possible.
+          </p>
+
+          <h2>Get In Touch</h2>
+          <p>
+            If you have inquiries about our products, services, or partnerships,
+            don’t hesitate to send us a message. We aim to respond within 24
+            hours on business days.
+          </p>
+
+          <ul>
+            <li>
+              <a
+                href="mailto:support@playstation.com
+                    "
+                >support@playstation.com</a
+              >
+            </li>
+            <li>Phone: +1 (234) 567-8900</li>
+            <li>Office Hours: Monday - Friday, 9:00 AM - 6:00 PM (EST)</li>
+          </ul>
+
+          <h1>Send Us a Message</h1>
+          <p>
+            You can also use the contact form below to send us a direct message.
+            Just fill in your details, and we’ll get back to you as soon as
+            possible.
+          </p>
+
+          <input id="contact-name" placeholder="Name" type="text" name="name" />
+          <input
+            id="contact-email"
+            placeholder="Mail"
+            required
+            type="email"
+            name="email"
+          />
+          <input
+            id="contact-subject"
+            placeholder="Subject"
+            type="text"
+            name="subject"
+          />
+          <input
+            id="contact-message"
+            placeholder="Message"
+            type="text"
+            name="message"
+          />
+          <input id="contact-submit" type="submit" value="Send Message" />
+        </div>
+      </section>
+
+      <section>
+        <div id="reviews" class="review-section">
+          <div class="user-review">
+            <h2>Write a Review</h2>
+
+            <div class="rating">
+              <span class="star" data-value="5">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="1">&#9733;</span>
+            </div>
+            <p style="color: white; font-size: 1px" id="rating-value">
+              Rating: 0
+            </p>
+
+            <script src="script.js"></script>
+            <input
+              class="review-name"
+              placeholder="Name"
+              type="text"
+              name="name"
+              required
+            />
+            <textarea
+              id="review-text"
+              placeholder="Write your review here..."
+              required
+            ></textarea>
+            <br />
+            <button id="submitButton">Submit Review</button>
+          </div>
+
+          <div class="other-reviews">
+            <h2>Other Reviews</h2>
+            <div class="reviews-list" id="reviews-list">
+              <div class="review">
+                <span class="star selected" data-value="4">&#9733;</span>
+                <span class="star selected" data-value="3">&#9733;</span>
+                <span class="star selected" data-value="2">&#9733;</span>
+                <span class="star selected" data-value="1">&#9733;</span>
+                <p><strong>Aryaman Khanna:</strong></p>
+                <p>
+                  I bought the PS5 Slim and is an absolute gem! It's got the
+                  same amazing performance as the original but in a slimmer,
+                  more compact design. Fits perfectly in my setup without taking
+                  up too much space. It's quieter and doesn’t get as hot as the
+                  regular version, which is a huge bonus. Honestly, if you're
+                  planning to buy one, just go for it. You won’t regret it!
+                </p>
+              </div>
+
+              <div class="review">
+                <span class="star selected" data-value="3">&#9733;</span>
+                <span class="star selected" data-value="2">&#9733;</span>
+                <span class="star selected" data-value="1">&#9733;</span>
+                <p><strong>Vishnu Sharma:</strong></p>
+                <p>
+                  The PS5 Pro is solid, but I’m honestly a bit torn. The
+                  performance boost is barely noticeable. I’m not sure it should
+                  be this expensive. Don't but it if you already have a regular
+                  PS5. It’s bulkier too, which can be annoying if you don’t have
+                  much space. I was expecting a bigger leap in terms of speed
+                  and load times, but it wasn’t as huge as I hoped. If you’re a
+                  casual player, stick with the standard PS5.
+                </p>
+              </div>
+
+              <div class="review">
+                <span class="star selected" data-value="3">&#9733;</span>
+                <span class="star selected" data-value="2">&#9733;</span>
+                <span class="star selected" data-value="1">&#9733;</span>
+                <p><strong>Riya Patel:</strong></p>
+                <p>
+                  The PS5 disc version is a beast! It's got insane power, and a
+                  controller that feels like magic in your hands. Also, the
+                  games look amazing However, it's definitely a big machine, and
+                  the controller takes some getting used to. Overall, it's not
+                  bad if you don't mind it's size.
+                </p>
+              </div>
+
+              <div class="review">
+                <span class="star selected" data-value="2">&#9733;</span>
+                <span class="star selected" data-value="1">&#9733;</span>
+                <p><strong>Aditya Kumar:</strong></p>
+                <p>
+                  This PS5 Pro is a total letdown. The price tag is ridiculous
+                  for barely any noticeable improvement over the original. The
+                  DualSense controller still has the same issues with drift and
+                  battery life. The UI is clunky and slow, and the exclusive
+                  games aren't worth the hype. Save your money and stick with
+                  your PS5 or upgrade to a PC.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h2>About PlayStation</h2>
+        <p>
+          PlayStation is a world-class gaming experience with cutting-edge
+          technology, immersive gameplay, and a large library of amazing games.
+        </p>
+      </div>
+
+      <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#site-start">Home</a></li>
+          <li><a href="#psdiscinfo">Consoles</a></li>
+          <li><a target="_blank" href="/WebDev/FEE/Accessories/index.html">Accessories</a></li>
+          <li>
+            <a target="_blank" href="/WebDev/FEE/Games/index.html">Games</a>
+          </li>
+          <li>
+            <a target="_blank" href="/WebDev/FEE/Sign In/index.html">Sign In</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-section contact">
+        <h2>Contact Us</h2>
+        <ul>
+          <li>Email: support@playstation.com</li>
+          <li>Phone: 1-800-123-4567</li>
+          <li>Address: 42nd Irving St, 43043 New York, NY</li>
+        </ul>
+      </div>
+
+      <div class="footer-section social icons">
+        <h2>Follow Us</h2>
+        <ul>
+          <li>
+            <a target="_blank" href="https://x.com/PlayStation/">Twitter</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/playstation/"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://www.youtube.com/@PlayStation/"
+              >YouTube</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 PlayStation | All Rights Reserved</p>
+    </div>
+  </footer>
+</html>
